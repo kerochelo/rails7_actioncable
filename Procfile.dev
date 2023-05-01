@@ -1,2 +1,3 @@
 web: unset PORT && bin/rails server
 js: yarn build --watch
+redis: bundle exec redis-server config/redis.conf
